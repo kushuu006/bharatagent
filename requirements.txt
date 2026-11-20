@@ -1,0 +1,10 @@
+# Core (laptop)
+fastapi
+uvicorn
+# Training (Kaggle/Colab GPU)
+transformers
+datasets
+trl
+peft
+bitsandbytes
+accelerate

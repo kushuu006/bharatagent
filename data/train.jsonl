@@ -1,0 +1,166 @@
+{"query": "Trains from Jaipur to Kolkata on 10 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Kolkata", "date": "2026-12-10"}}]}, "lang": "english", "kind": "single"}
+{"query": "Bhopal में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Bhopal"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "What's the weather in Chennai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Chennai"}}]}, "lang": "english", "kind": "single"}
+{"query": "Udaipur se Chennai ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "2026-12-05 ko Udaipur se Kolkata ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Kolkata", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Kota ka mausam kaisa hai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Kota"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2027-01-02 ko Kota se Jodhpur ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Jodhpur", "date": "2027-01-02"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Udaipur se Bhopal ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Bhopal ka mausam kaisa hai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Bhopal"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Jaipur to Bhopal on 25 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Bhopal", "date": "2026-12-25"}}]}, "lang": "english", "kind": "single"}
+{"query": "Dhanyavaad", "gold": {"answer": "Namaste! Main aapki kaise madad kar sakta hoon?"}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "Trains from Kota to Bhopal on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Bhopal", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Mumbai में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Mumbai"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "2026-12-25 ko Kota se Kolkata ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Kolkata", "date": "2026-12-25"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Mumbai to Kolkata on 10 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Kolkata", "date": "2026-12-10"}}]}, "lang": "english", "kind": "single"}
+{"query": "Send 500 rupees to Amit on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Amit", "amount": 500}}]}, "lang": "english", "kind": "single"}
+{"query": "Rahul ko 250 rupaye bhej do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Rahul", "amount": 250}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-10 ko Delhi se Bhopal ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Bhopal", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Delhi se Kolkata ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Thank you!", "gold": {"answer": "Namaste! Main aapki kaise madad kar sakta hoon?"}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "2027-01-02 ko Mumbai se Chennai ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Chennai", "date": "2027-01-02"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Jaipur में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jaipur"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Send 250 rupees to Rahul on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Rahul", "amount": 250}}]}, "lang": "english", "kind": "single"}
+{"query": "Jaipur ka mausam check karo aur 08:00 baje umbrella lene ka reminder lagao", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jaipur"}}, {"tool": "set_reminder", "args": {"text": "umbrella lena", "time": "08:00"}}]}, "lang": "hinglish", "kind": "multi"}
+{"query": "2026-12-25 ko Udaipur se Pune ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Pune", "date": "2026-12-25"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Delhi se Chennai ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "What's the weather in Jaipur?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jaipur"}}]}, "lang": "english", "kind": "single"}
+{"query": "Mohan ko 100 rupaye bhej do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Mohan", "amount": 100}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "500 dollar ko rupaye mein badlo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 500, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Mumbai to Bhopal on 10 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Bhopal", "date": "2026-12-10"}}]}, "lang": "english", "kind": "single"}
+{"query": "Mumbai se Kolkata ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Delhi में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Delhi"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Ravi ko 100 rupaye bhej do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Ravi", "amount": 100}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Sunita को 250 रुपये भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Sunita", "amount": 250}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Latest news on stock market", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "stock market"}}]}, "lang": "english", "kind": "single"}
+{"query": "What's the weather in Udaipur?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Udaipur"}}]}, "lang": "english", "kind": "single"}
+{"query": "Atal Pension Yojana ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Atal Pension Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Tell me about Mudra Loan", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Mudra Loan"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Jaipur to Pune on 10 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Pune", "date": "2026-12-10"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Delhi to Chennai on 2 January", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Chennai", "date": "2027-01-02"}}]}, "lang": "english", "kind": "single"}
+{"query": "Tell me about Ujjwala Yojana", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ujjwala Yojana"}}]}, "lang": "english", "kind": "single"}
+{"query": "Hello", "gold": {"answer": "Namaste! Main aapki kaise madad kar sakta hoon?"}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "Send 250 rupees to Sunita on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Sunita", "amount": 250}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Mumbai to Pune on 2 January", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Pune", "date": "2027-01-02"}}]}, "lang": "english", "kind": "single"}
+{"query": "45 guna 3 kitna hota hai?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "45*3"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Udaipur to Chennai on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "2026-12-10 ko Jaipur se Jodhpur ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Jodhpur", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Udaipur se Kolkata ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Priya ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Convert 500 USD to INR", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 500, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "english", "kind": "single"}
+{"query": "Kota में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Kota"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "2026-12-10 ko Delhi se Jodhpur ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Jodhpur", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Chennai में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Chennai"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Ravi ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Udaipur ka mausam kaisa hai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Udaipur"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Ayushman Bharat ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ayushman Bharat"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Delhi ka mausam check karo aur 08:00 baje umbrella lene ka reminder lagao", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Delhi"}}, {"tool": "set_reminder", "args": {"text": "umbrella lena", "time": "08:00"}}]}, "lang": "hinglish", "kind": "multi"}
+{"query": "Neha ko 250 rupaye bhej do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Neha", "amount": 250}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Send 100 rupees to Priya on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Priya", "amount": 100}}]}, "lang": "english", "kind": "single"}
+{"query": "What is 250 plus 4?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "250+4"}}]}, "lang": "english", "kind": "single"}
+{"query": "Tell me about Atal Pension Yojana", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Atal Pension Yojana"}}]}, "lang": "english", "kind": "single"}
+{"query": "2026-12-05 ko Udaipur se Bhopal ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Bhopal", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Mumbai se Chennai ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Kota se Bhopal ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "2026-12-25 ko Delhi se Pune ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Pune", "date": "2026-12-25"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Mumbai se Pune ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Mumbai se Bhopal ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "2026-12-25 ko Mumbai se Jodhpur ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Jodhpur", "date": "2026-12-25"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Udaipur में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Udaipur"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "2026-12-05 ko Udaipur se Jodhpur ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Jodhpur", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Send 100 rupees to Ravi on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Ravi", "amount": 100}}]}, "lang": "english", "kind": "single"}
+{"query": "Kota se Jodhpur ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "What is 45 plus 3?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "45+3"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Delhi to Bhopal on 10 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Bhopal", "date": "2026-12-10"}}]}, "lang": "english", "kind": "single"}
+{"query": "Sunita ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Convert 50 USD to INR", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 50, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "english", "kind": "single"}
+{"query": "100 dollar ko rupaye mein badlo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 100, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-05 ko Udaipur se Chennai ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Kota to Kolkata on 25 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Kolkata", "date": "2026-12-25"}}]}, "lang": "english", "kind": "single"}
+{"query": "Jaipur se Jodhpur ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Kota se Chennai ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "100 guna 7 kitna hota hai?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "100*7"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Mujhe 10:30 baje yaad dilana: meeting hai", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "meeting hai", "time": "10:30"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Pune में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Pune"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Ayushman Bharat योजना की जानकारी दो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ayushman Bharat"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Trains from Delhi to Kolkata on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Kolkata", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Delhi ka mausam kaisa hai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Delhi"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Udaipur ka mausam check karo aur 08:00 baje umbrella lene ka reminder lagao", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Udaipur"}}, {"tool": "set_reminder", "args": {"text": "umbrella lena", "time": "08:00"}}]}, "lang": "hinglish", "kind": "multi"}
+{"query": "10 dollar ko rupaye mein badlo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 10, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-05 ko Kota se Pune ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Pune", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Kavita ko 2000 rupaye bhej do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Kavita", "amount": 2000}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Kota to Pune on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Pune", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Ujjwala Yojana ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ujjwala Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Convert 100 USD to INR", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 100, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "english", "kind": "single"}
+{"query": "PM Kisan ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Kisan"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-05 ko Delhi se Kolkata ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Kolkata", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Kota se Pune ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Mohan ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Priya ko 100 rupaye bhej do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Priya", "amount": 100}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Tum kaun ho?", "gold": {"answer": "Namaste! Main aapki kaise madad kar sakta hoon?"}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "Priya को 100 रुपये भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Priya", "amount": 100}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Mumbai ka mausam check karo aur 08:00 baje umbrella lene ka reminder lagao", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Mumbai"}}, {"tool": "set_reminder", "args": {"text": "umbrella lena", "time": "08:00"}}]}, "lang": "hinglish", "kind": "multi"}
+{"query": "Trains from Delhi to Jodhpur on 10 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Delhi", "to_city": "Jodhpur", "date": "2026-12-10"}}]}, "lang": "english", "kind": "single"}
+{"query": "2026-12-10 ko Mumbai se Bhopal ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Bhopal", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Ujjwala Yojana योजना की जानकारी दो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ujjwala Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "PM Kisan योजना की जानकारी दो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Kisan"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Jodhpur में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jodhpur"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "weather alert ki latest khabar kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "weather alert"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Delhi se Jodhpur ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Trains from Udaipur to Kolkata on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Kolkata", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "What's the weather in Delhi?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Delhi"}}]}, "lang": "english", "kind": "single"}
+{"query": "250 guna 4 kitna hota hai?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "250*4"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "What's the weather in Kota?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Kota"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Udaipur to Bhopal on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Bhopal", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Neha को 250 रुपये भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Neha", "amount": 250}}]}, "lang": "hindi", "kind": "single"}
+{"query": "2026-12-05 ko Kota se Bhopal ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Bhopal", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "What is 12 plus 5?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "12+5"}}]}, "lang": "english", "kind": "single"}
+{"query": "2027-01-02 ko Mumbai se Pune ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Pune", "date": "2027-01-02"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "ISRO ki latest khabar kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "ISRO"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Send 100 rupees to Mohan on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Mohan", "amount": 100}}]}, "lang": "english", "kind": "single"}
+{"query": "2026-12-05 ko Kota se Chennai ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Amit ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Mudra Loan योजना की जानकारी दो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Mudra Loan"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Pune ka mausam kaisa hai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Pune"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Kavita ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Rahul ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Jaipur se Pune ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "2026-12-10 ko Jaipur se Kolkata ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Kolkata", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Amit को 500 रुपये भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Amit", "amount": 500}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Jaipur se Chennai ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "election ki latest khabar kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "election"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Mumbai to Jodhpur on 25 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Mumbai", "to_city": "Jodhpur", "date": "2026-12-25"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Udaipur to Jodhpur on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Jodhpur", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "2026-12-25 ko Jaipur se Bhopal ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Bhopal", "date": "2026-12-25"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Kolkata में आज मौसम कैसा है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Kolkata"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Mujhe 18:00 baje yaad dilana: mummy ko call karna", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "mummy ko call karna", "time": "18:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Trains from Udaipur to Pune on 25 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Pune", "date": "2026-12-25"}}]}, "lang": "english", "kind": "single"}
+{"query": "Neha ko paise bhej do", "gold": {"ask": "Kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Latest news on weather alert", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "weather alert"}}]}, "lang": "english", "kind": "single"}
+{"query": "Namaste, kaise ho?", "gold": {"answer": "Namaste! Main aapki kaise madad kar sakta hoon?"}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "What's the weather in Jodhpur?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jodhpur"}}]}, "lang": "english", "kind": "single"}
+{"query": "50 dollar ko rupaye mein badlo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 50, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Paise bhej do", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Tell me about PM Kisan", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Kisan"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Jaipur to Chennai on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Atal Pension Yojana योजना की जानकारी दो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Atal Pension Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "cricket ki latest khabar kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "cricket"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Udaipur se Pune ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Kota se Kolkata ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "What's the weather in Pune?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Pune"}}]}, "lang": "english", "kind": "single"}
+{"query": "Jaipur se Kolkata ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Ravi को 100 रुपये भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Ravi", "amount": 100}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Trains from Kota to Chennai on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Kota", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Mumbai se Jodhpur ki train chahiye", "gold": {"ask": "Kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Mujhe 08:00 baje yaad dilana: dawai leni hai", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "dawai leni hai", "time": "08:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "What's the weather in Mumbai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Mumbai"}}]}, "lang": "english", "kind": "single"}
+{"query": "Send 2000 rupees to Kavita on UPI", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Kavita", "amount": 2000}}]}, "lang": "english", "kind": "single"}
+{"query": "Mudra Loan ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Mudra Loan"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-10 ko Jaipur se Pune ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Pune", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-05 ko Jaipur se Chennai ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}

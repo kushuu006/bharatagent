@@ -1,0 +1,18 @@
+[
+  {"name": "get_weather", "description": "Get current weather of a city",
+   "parameters": {"city": "string"}, "required": ["city"]},
+  {"name": "send_upi", "description": "Send money via UPI",
+   "parameters": {"to": "string", "amount": "number"}, "required": ["to", "amount"]},
+  {"name": "check_train", "description": "Find trains between two stations on a date (YYYY-MM-DD)",
+   "parameters": {"from_city": "string", "to_city": "string", "date": "string"}, "required": ["from_city", "to_city", "date"]},
+  {"name": "scheme_lookup", "description": "Get details of a government scheme",
+   "parameters": {"scheme_name": "string"}, "required": ["scheme_name"]},
+  {"name": "set_reminder", "description": "Set a reminder",
+   "parameters": {"text": "string", "time": "string"}, "required": ["text", "time"]},
+  {"name": "currency_convert", "description": "Convert money between currencies",
+   "parameters": {"amount": "number", "from_cur": "string", "to_cur": "string"}, "required": ["amount", "from_cur", "to_cur"]},
+  {"name": "search_news", "description": "Search latest news on a topic",
+   "parameters": {"topic": "string"}, "required": ["topic"]},
+  {"name": "calculator", "description": "Evaluate a math expression",
+   "parameters": {"expression": "string"}, "required": ["expression"]}
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "query": "Paise bhej do",
+    "gold": {
+      "ask": "Kisko aur kitne rupaye bhejne hain?"
+    },
+    "output": "{\"call\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Delhi\"}}}]"
+  },
+  {
+    "query": "Jaipur se Bhopal ki train chahiye",
+    "gold": {
+      "ask": "Kis tarikh ke liye?"
+    },
+    "output": "{\n  \"calls\": [\n    {\n      \"tool\": \"check_train\",\n      \"args\": {\n        \"from_city\": \"Jaipur\",\n        \"to_city\": \"Bhopal\",\n        \"date\": \"2022-03-15\"\n      }\n    }\n  ]\n}"
+  },
+  {
+    "query": "Kota ka mausam check karo aur 08:00 baje umbrella lene ka reminder lagao",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Kota"
+          }
+        },
+        {
+          "tool": "set_reminder",
+          "args": {
+            "text": "umbrella lena",
+            "time": "08:00"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Kota\"}}], \"calls\":[{\"tool\":\"set_reminder\",\"args\":{\"text\":\"Umbrella\",\"time\":\"08:00\"}}]}"
+  },
+  {
+    "query": "2026-12-10 ko Mumbai se Kolkata ki train batao",
+    "gold": {
+      "calls": [
+        {
+          "tool": "check_train",
+          "args": {
+            "from_city": "Mumbai",
+            "to_city": "Kolkata",
+            "date": "2026-12-10"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Mumbai\",\"to_city\":\"Kolkata\",\"date\":\"2026-12-10\"}}}]"
+  },
+  {
+    "query": "Trains from Mumbai to Chennai on 2 January",
+    "gold": {
+      "calls": [
+        {
+          "tool": "check_train",
+          "args": {
+            "from_city": "Mumbai",
+            "to_city": "Chennai",
+            "date": "2027-01-02"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Mumbai\",\"to_city\":\"Chennai\",\"date\":\"2021-01-02\"}}}]"
+  },
+  {
+    "query": "Latest news on election",
+    "gold": {
+      "calls": [
+        {
+          "tool": "search_news",
+          "args": {
+            "topic": "election"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"search_news\",\"args\":{\"topic\":\"election\"}}]}"
+  },
+  {
+    "query": "Mumbai ka mausam kaisa hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Mumbai"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Mumbai\"}}]}"
+  },
+  {
+    "query": "12 guna 5 kitna hota hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "calculator",
+          "args": {
+            "expression": "12*5"
+          }
+        }
+      ]
+    },
+    "output": "{\"answer\":\"The answer is 7.\"}"
+  },
+  {
+    "query": "Kolkata ka mausam kaisa hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Kolkata"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Kolkata\"}}}]"
+  },
+  {
+    "query": "Delhi se Bhopal ki train chahiye",
+    "gold": {
+      "ask": "Kis tarikh ke liye?"
+    },
+    "output": "{\n  \"calls\": [\n    {\n      \"tool\": \"check_train\",\n      \"args\": {\n        \"from_city\": \"Delhi\",\n        \"to_city\": \"Bhopal\"\n      }\n    }\n  ]\n}"
+  },
+  {
+    "query": "Jaipur ka mausam kaisa hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Jaipur"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Jaipur\"}}}]"
+  },
+  {
+    "query": "Rahul को 250 रुपये भेजो",
+    "gold": {
+      "calls": [
+        {
+          "tool": "send_upi",
+          "args": {
+            "to": "Rahul",
+            "amount": 250
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"send_upi\",\"args\":{\"to\":\"+91xxxxxxxxxx\",\"amount\":250}}]}"
+  },
+  {
+    "query": "Jodhpur ka mausam kaisa hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Jodhpur"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Jodhpur\"}}}]"
+  },
+  {
+    "query": "stock market ki latest khabar kya hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "search_news",
+          "args": {
+            "topic": "stock market"
+          }
+        }
+      ]
+    },
+    "output": "{\"ask\":\"question\"}"
+  },
+  {
+    "query": "Amit ko 500 rupaye bhej do",
+    "gold": {
+      "calls": [
+        {
+          "tool": "send_upi",
+          "args": {
+            "to": "Amit",
+            "amount": 500
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"send_upi\",\"args\":{\"to\":\"Amit\",\"amount\":500}}]}"
+  },
+  {
+    "query": "Trains from Jaipur to Jodhpur on 10 December",
+    "gold": {
+      "calls": [
+        {
+          "tool": "check_train",
+          "args": {
+            "from_city": "Jaipur",
+            "to_city": "Jodhpur",
+            "date": "2026-12-10"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Jaipur\",\"to_city\":\"Jodhpur\",\"date\":\"2022-12-10\"}}}]"
+  },
+  {
+    "query": "Latest news on ISRO",
+    "gold": {
+      "calls": [
+        {
+          "tool": "search_news",
+          "args": {
+            "topic": "ISRO"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"search_news\",\"args\":{\"topic\":\"ISRO\"}}]}"
+  },
+  {
+    "query": "Chennai ka mausam kaisa hai?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Chennai"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Chennai\"}}]}"
+  },
+  {
+    "query": "Trains from Delhi to Pune on 25 December",
+    "gold": {
+      "calls": [
+        {
+          "tool": "check_train",
+          "args": {
+            "from_city": "Delhi",
+            "to_city": "Pune",
+            "date": "2026-12-25"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Delhi\",\"to_city\":\"Pune\",\"date\":\"2019-12-25\"}}][]}"
+  },
+  {
+    "query": "2027-01-02 ko Delhi se Chennai ki train batao",
+    "gold": {
+      "calls": [
+        {
+          "tool": "check_train",
+          "args": {
+            "from_city": "Delhi",
+            "to_city": "Chennai",
+            "date": "2027-01-02"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Delhi\",\"to_city\":\"Chennai\",\"date\":\"2027-01-02\"}}}]"
+  },
+  {
+    "query": "What's the weather in Kolkata?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Kolkata"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Kolkata\"}}]}"
+  },
+  {
+    "query": "Send 250 rupees to Neha on UPI",
+    "gold": {
+      "calls": [
+        {
+          "tool": "send_upi",
+          "args": {
+            "to": "Neha",
+            "amount": 250
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"send_upi\",\"args\":{\"to\":\"Neha\",\"amount\":250}}]}"
+  },
+  {
+    "query": "Mohan को 100 रुपये भेजो",
+    "gold": {
+      "calls": [
+        {
+          "tool": "send_upi",
+          "args": {
+            "to": "Mohan",
+            "amount": 100
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"send_upi\",\"args\":{\"to\":\"mohan\",\"amount\":100}}]}"
+  },
+  {
+    "query": "What's the weather in Bhopal?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "get_weather",
+          "args": {
+            "city": "Bhopal"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"get_weather\",\"args\":{\"city\":\"Bhopal\"}}]}"
+  },
+  {
+    "query": "Convert 10 USD to INR",
+    "gold": {
+      "calls": [
+        {
+          "tool": "currency_convert",
+          "args": {
+            "amount": 10,
+            "from_cur": "USD",
+            "to_cur": "INR"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"currency_convert\",\"args\":{\"amount\":10,\"from_cur\":\"USD\",\"to_cur\":\"INR\"}}]}"
+  },
+  {
+    "query": "Latest news on cricket",
+    "gold": {
+      "calls": [
+        {
+          "tool": "search_news",
+          "args": {
+            "topic": "cricket"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"search_news\",\"args\":{\"topic\":\"cricket\"}}]}"
+  },
+  {
+    "query": "Udaipur se Jodhpur ki train chahiye",
+    "gold": {
+      "ask": "Kis tarikh ke liye?"
+    },
+    "output": "{\"call\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Udaipur\",\"to_city\":\"Jodhpur\"}}]}"
+  },
+  {
+    "query": "Sunita ko 250 rupaye bhej do",
+    "gold": {
+      "calls": [
+        {
+          "tool": "send_upi",
+          "args": {
+            "to": "Sunita",
+            "amount": 250
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"send_upi\",\"args\":{\"to\":\"Sunita\",\"amount\":250}}]}"
+  },
+  {
+    "query": "What is 100 plus 7?",
+    "gold": {
+      "calls": [
+        {
+          "tool": "calculator",
+          "args": {
+            "expression": "100+7"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"calculator\",\"args\":{\"expression\":\"100 + 7\"}}]}"
+  },
+  {
+    "query": "Trains from Kota to Jodhpur on 2 January",
+    "gold": {
+      "calls": [
+        {
+          "tool": "check_train",
+          "args": {
+            "from_city": "Kota",
+            "to_city": "Jodhpur",
+            "date": "2027-01-02"
+          }
+        }
+      ]
+    },
+    "output": "{\"calls\":[{\"tool\":\"check_train\",\"args\":{\"from_city\":\"Kota\",\"to_city\":\"Jodhpur\",\"date\":\"2021-01-02\"}}}]"
+  },
+  {
+    "query": "Delhi se Pune ki train chahiye",
+    "gold": {
+      "ask": "Kis tarikh ke liye?"
+    },
+    "output": "{\n  \"calls\": [\n    {\n      \"tool\": \"check_train\",\n      \"args\": {\n        \"from_city\": \"Delhi\",\n        \"to_city\": \"Pune\",\n        \"date\": \"2022-03-15\"\n      }\n    }\n  ]\n}"
+  },
+  {
+    "query": "Tell me about Ayushman Bharat",
+    "gold": {
+      "calls": [
+        {
+          "tool": "scheme_lookup",
+          "args": {
+            "scheme_name": "Ayushman Bharat"
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"scheme_lookup\",\"args\":{\"scheme_name\":\"Ayushman Bharat\"}}]}"
+  },
+  {
+    "query": "Kavita को 2000 रुपये भेजो",
+    "gold": {
+      "calls": [
+        {
+          "tool": "send_upi",
+          "args": {
+            "to": "Kavita",
+            "amount": 2000
+          }
+        }
+      ]
+    },
+    "output": "{\"call\":[{\"tool\":\"send_upi\",\"args\":{\"to\":\"Kavita\",\"amount\":2000}}]}"
+  }
+]
