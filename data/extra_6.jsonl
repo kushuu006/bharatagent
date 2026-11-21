@@ -1,0 +1,38 @@
+{"query": "IPL ka taaza update kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "IPL"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Aaj ki petrol price ki khabar batao", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "petrol price"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Monsoon ka latest update kya chal raha hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "monsoon"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Bollywood mein aaj kya chal raha hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "Bollywood"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Startups ki taaza khabar sunao", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "startups"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Budget ka latest update bataiye", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "budget"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Education sector mein aaj ki khabar kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "education"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Jobs ke baare mein taaza update do", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "jobs"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Electric vehicles ki latest news kya hai?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "electric vehicles"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Railway ki aaj ki khabar batao", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "railway"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "खेती-किसानी की ताज़ा ख़बर क्या है?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "agriculture"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "आज सोने के भाव की ख़बर बताओ", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "gold price"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "टेक्नोलॉजी की ताज़ा अपडेट क्या है?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "technology"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "आर्टिफिशियल इंटेलिजेंस पर आज क्या चल रहा है?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "artificial intelligence"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "स्वास्थ्य की आज की ताज़ा ख़बरें सुनाओ", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "health"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "फुटबॉल की लेटेस्ट अपडेट बताइए", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "football"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "अंतरिक्ष की ताज़ा ख़बर क्या है?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "space"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "आज का मौसम कैसा रहेगा, ताज़ा अपडेट दो", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "weather"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "What's the latest news on cricket?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "cricket"}}]}, "lang": "english", "kind": "single"}
+{"query": "Any update on ISRO today?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "ISRO"}}]}, "lang": "english", "kind": "single"}
+{"query": "Show me today's stock market news", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "stock market"}}]}, "lang": "english", "kind": "single"}
+{"query": "What is happening in banking right now?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "banking"}}]}, "lang": "english", "kind": "single"}
+{"query": "Latest updates on real estate", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "real estate"}}]}, "lang": "english", "kind": "single"}
+{"query": "Give me the latest tennis news", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "tennis"}}]}, "lang": "english", "kind": "single"}
+{"query": "Any fresh news about defence?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "defence"}}]}, "lang": "english", "kind": "single"}
+{"query": "Today's cybersecurity headlines please", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "cybersecurity"}}]}, "lang": "english", "kind": "single"}
+{"query": "सोलर एनर्जी री ताज़ी खबर बताओ सा", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "solar energy"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Tourism ऱो आज रो अपडेट कांई चाल रयो है?", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "tourism"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Hockey री ताज़ी खबर कांई है, बताओ नी", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "hockey"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Smartphones रा नया अपडेट मने सुणाओ सा", "gold": {"calls": [{"tool": "search_news", "args": {"topic": "smartphones"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Khabar sunao", "gold": {"ask": "Aap kis vishay ki khabar sunna chahte hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Aaj kya news hai?", "gold": {"ask": "Aap kis topic ki news dekhna chahte hain? Jaise cricket, business ya technology."}, "lang": "hinglish", "kind": "missing"}
+{"query": "Taaza update dikhao", "gold": {"ask": "Kis vishay ka update chahiye aapko?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Headlines batao", "gold": {"ask": "Aap kis category ki headlines jaanna chahte hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Kuch latest batao yaar", "gold": {"ask": "Kis cheez ke baare mein latest jaanna hai? Kripya vishay bataiye."}, "lang": "hinglish", "kind": "missing"}
+{"query": "Aaj ki badi khabar kya hai?", "gold": {"ask": "Aap kis kshetra ki badi khabar chahte hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Kya chal raha hai duniya mein?", "gold": {"ask": "Aap kis vishay ke baare mein jaanna chahte hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "आज की ताज़ा ख़बर
