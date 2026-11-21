@@ -1,0 +1,50 @@
+{"query": "Mummy ko 1500 bhej de yaar", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Mummy", "amount": 1500}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "dukaan wala ko 75 rs transfer kar do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Dukaan wala", "amount": 75}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Bhaiya ko paanch sau pay karo", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Bhaiya", "amount": 500}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Sharma ji ko ₹320 bhejo jaldi", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Sharma ji", "amount": 320}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "pintu ko dedh sau bhej dena plz", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Pintu", "amount": 150}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "neha.verma@okhdfcbank pe 4999 transfer kar do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "neha.verma@okhdfcbank", "amount": 4999}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Papa ko 12000 bhejna hai, kar do", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Papa", "amount": 12000}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Chotu ko 15 rs bhej de", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Chotu", "amount": 15}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Gupta uncle ko do hazaar rupye pay kardo", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Gupta uncle", "amount": 2000}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Vicky ko 600 bhej do bhai", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Vicky", "amount": 600}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "मम्मी को 800 रुपये भेज दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "मम्मी", "amount": 800}}]}, "lang": "hindi", "kind": "single"}
+{"query": "दीदी को पाँच सौ रुपये भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "दीदी", "amount": 500}}]}, "lang": "hindi", "kind": "single"}
+{"query": "सुरेश मीणा को 1200 रुपये ट्रांसफर कर दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "सुरेश मीणा", "amount": 1200}}]}, "lang": "hindi", "kind": "single"}
+{"query": "दूधवाले को 90 रुपये पे कर दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "दूधवाला", "amount": 90}}]}, "lang": "hindi", "kind": "single"}
+{"query": "रमेश जी को ढाई सौ रुपये भेज दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "रमेश जी", "amount": 250}}]}, "lang": "hindi", "kind": "single"}
+{"query": "मेरे दोस्त अंकित को ₹3500 भेजो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "अंकित", "amount": 3500}}]}, "lang": "hindi", "kind": "single"}
+{"query": "7001234567 पर 450 रुपये भेज दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "7001234567", "amount": 450}}]}, "lang": "hindi", "kind": "single"}
+{"query": "गुड्डू भैया को एक हज़ार रुपये भेज दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "गुड्डू भैया", "amount": 1000}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Send 2500 rupees to Priya Nair", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Priya Nair", "amount": 2500}}]}, "lang": "english", "kind": "single"}
+{"query": "Pay Mr. Kapoor Rs 999 please", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Mr. Kapoor", "amount": 999}}]}, "lang": "english", "kind": "single"}
+{"query": "Transfer 18 rupees to the chai guy", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "chai guy", "amount": 18}}]}, "lang": "english", "kind": "single"}
+{"query": "Please send ₹7500 to arjun.s@ybl", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "arjun.s@ybl", "amount": 7500}}]}, "lang": "english", "kind": "single"}
+{"query": "Send Rohan Malhotra 330 rupees", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Rohan Malhotra", "amount": 330}}]}, "lang": "english", "kind": "single"}
+{"query": "Can you pay my landlord 12000?", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "landlord", "amount": 12000}}]}, "lang": "english", "kind": "single"}
+{"query": "Send Rs 45 to Tina", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "Tina", "amount": 45}}]}, "lang": "english", "kind": "single"}
+{"query": "Pay the plumber four hundred rupees", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "plumber", "amount": 400}}]}, "lang": "english", "kind": "single"}
+{"query": "म्हारी मां नै 700 रिपिया भेज दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "मां", "amount": 700}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "भंवर सिंह नै डेढ़ सौ रिपिया पठा दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "भंवर सिंह", "amount": 150}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "काका नै दो हजार रिपिया भेज दो सा", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "काका", "amount": 2000}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "9414055512 माथै 260 रिपिया भेज दो", "gold": {"calls": [{"tool": "send_upi", "args": {"to": "9414055512", "amount": 260}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Mummy ko paise bhej do", "gold": {"ask": "Mummy ko kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "500 rupaye bhej do", "gold": {"ask": "Kisko 500 rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "UPI se paise bhejne hain", "gold": {"ask": "Kisko aur kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Dukaan wala ko paisa dena hai", "gold": {"ask": "Dukaan wale ko kitne rupaye dene hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "ravi@okaxis pe paise bhej do", "gold": {"ask": "ravi@okaxis par kitne rupaye bhejne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "5000 transfer kar do yaar", "gold": {"ask": "5000 rupaye kisko transfer karne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "भैया को पैसे भेज दो", "gold": {"ask": "भैया को कितने रुपये भेजने हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "1000 रुपये भेजने हैं", "gold": {"ask": "1000 रुपये किसको भेजने हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "पैसे ट्रांसफर करने हैं", "gold": {"ask": "किसको और कितने रुपये ट्रांसफर करने हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Send money to Anjali", "gold": {"ask": "How much would you like to send to Anjali?"}, "lang": "english", "kind": "missing"}
+{"query": "Pay 300 rupees", "gold": {"ask": "Who should I send the 300 rupees to?"}, "lang": "english", "kind": "missing"}
+{"query": "I want to send money", "gold": {"ask": "Who would you like to send money to, and how much?"}, "lang": "english", "kind": "missing"}
+{"query": "Send some money to Karan Singh", "gold": {"ask": "How much should I send to Karan Singh?"}, "lang": "english", "kind": "missing"}
+{"query": "म्हारै भाई नै पईसा भेज दो", "gold": {"ask": "भाई नै कित्ता रिपिया भेजणा है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "2500 रिपिया भेज दो सा", "gold": {"ask": "2500 रिपिया किण नै भेजणा है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "UPI PIN kya hota hai?", "gold": {"answer": "UPI PIN ek 4 ya 6 digit ka secret code hota hai jo aap payment authorize karne ke liye daalte ho. Ise kisi ke saath share mat karo."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "UPI की लिमिट कितनी होती है?", "gold": {"answer": "आमतौर पर रोज़ की सीमा 1 लाख रुपये तक होती है, लेकिन यह बैंक और ऐप के हिसाब से अलग हो सकती है।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "Is UPI safe to use?", "gold": {"answer": "UPI is generally safe when you keep your PIN private, verify the receiver before paying, and avoid unknown payment requests or links."}, "lang": "english", "kind": "no_tool"}
+{"query": "UPI transaction fail ho jaye toh paise kahan jaate hain?", "gold": {"answer": "Agar transaction fail ho jaye aur paise kat gaye hon, toh ve aam taur par kuch hi din mein aapke bank account mein wapas aa jaate hain. Na aayen toh apne bank se sampark karo."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "UPI कांई होवै सा?", "gold": {"answer": "UPI एक तुरंत पेमेंट वाली सुविधा है, जिणसूं बैंक खाता सूं दूसरै खाते में झट पईसा भेज सको।"}, "lang": "rajasthani", "kind": "no_tool"}
