@@ -1,0 +1,50 @@
+{"query": "75 dollar ko rupaye mein badal do", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 75, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Do sau euro kitne rupaye hue, convert karo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 200, "from_cur": "EUR", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Dedh hazaar rupaye ko dollar mein badlo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 1500, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "5k rupaye ko euro mein convert kar de", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5000, "from_cur": "INR", "to_cur": "EUR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Ek lakh rupaye kitne dirham honge, convert karo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 100000, "from_cur": "INR", "to_cur": "AED"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "320 pound ko rupaye mein badalna hai", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 320, "from_cur": "GBP", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "12000 rs ko usd mein convert kr do", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 12000, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "5 euro ko dollar mein badlo yaar", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5, "from_cur": "EUR", "to_cur": "USD"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2.5 lakh rupaye ko euro mein convert karo", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 250000, "from_cur": "INR", "to_cur": "EUR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "500 dollar ko rupaye mein badal do", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 500, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "75 डॉलर को रुपये में बदलो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 75, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "320 यूरो कितने रुपये के होंगे, कन्वर्ट करो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 320, "from_cur": "EUR", "to_cur": "INR"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "डेढ़ हज़ार रुपये को डॉलर में बदल दो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 1500, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "एक लाख रुपये को यूरो में कन्वर्ट कर दो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 100000, "from_cur": "INR", "to_cur": "EUR"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "12000 रुपये कितने दिरहम होंगे, बदल दो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 12000, "from_cur": "INR", "to_cur": "AED"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "5 पाउंड को रुपये में बदलना है", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5, "from_cur": "GBP", "to_cur": "INR"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "दो सौ डॉलर को यूरो में बदलो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 200, "from_cur": "USD", "to_cur": "EUR"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "5k रुपये को डॉलर में कन्वर्ट कर दो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5000, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Convert 75 EUR to USD", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 75, "from_cur": "EUR", "to_cur": "USD"}}]}, "lang": "english", "kind": "single"}
+{"query": "How much is 320 dollars in rupees?", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 320, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "english", "kind": "single"}
+{"query": "Change 1500 INR to USD", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 1500, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "english", "kind": "single"}
+{"query": "Convert 12000 rupees to euros", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 12000, "from_cur": "INR", "to_cur": "EUR"}}]}, "lang": "english", "kind": "single"}
+{"query": "What is 5 pounds in dollars?", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5, "from_cur": "GBP", "to_cur": "USD"}}]}, "lang": "english", "kind": "single"}
+{"query": "Convert 2.5 lakh INR to USD", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 250000, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "english", "kind": "single"}
+{"query": "I need 200 AED converted to rupees", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 200, "from_cur": "AED", "to_cur": "INR"}}]}, "lang": "english", "kind": "single"}
+{"query": "Convert 5k dollars to euros", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5000, "from_cur": "USD", "to_cur": "EUR"}}]}, "lang": "english", "kind": "single"}
+{"query": "म्हने 75 डॉलर रा रिपिया बणा दीजो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 75, "from_cur": "USD", "to_cur": "INR"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Mane 5000 rupiya ro dollar banao sa", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 5000, "from_cur": "INR", "to_cur": "USD"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "दो सौ यूरो नै रिपिया मांय बदल दो", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 200, "from_cur": "EUR", "to_cur": "INR"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Ek lakh rupiya ra euro kitra hua, convert kar do", "gold": {"calls": [{"tool": "currency_convert", "args": {"amount": 100000, "from_cur": "INR", "to_cur": "EUR"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Euro ko rupaye mein badal do", "gold": {"ask": "Kitne euro convert karne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Convert dollars to euros", "gold": {"ask": "How many dollars would you like to convert?"}, "lang": "english", "kind": "missing"}
+{"query": "पाउंड को रुपये में बदलो", "gold": {"ask": "कितने पाउंड बदलने हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Rupaye ko dirham mein badalna hai", "gold": {"ask": "Kitne rupaye dirham mein badalne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "डॉलर नै रिपिया मांय बदल दो", "gold": {"ask": "कितरा डॉलर बदलणा है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "500 ko dollar mein badlo", "gold": {"ask": "500 kis currency se dollar mein badalne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Convert 1500 to euros", "gold": {"ask": "Which currency would you like to convert 1500 from?"}, "lang": "english", "kind": "missing"}
+{"query": "2000 को रुपये में बदलो", "gold": {"ask": "2000 किस करेंसी से रुपये में बदलने हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Mujhe 75 ko pound mein convert karna hai", "gold": {"ask": "75 kis currency se pound mein convert karne hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "म्हने 300 नै यूरो मांय बदल दो", "gold": {"ask": "300 कुण सी करेंसी सूं यूरो मांय बदलणा है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "200 dollar convert kar do", "gold": {"ask": "200 dollar ko kis currency mein convert karna hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Convert 100 euros", "gold": {"ask": "Which currency should I convert the 100 euros into?"}, "lang": "english", "kind": "missing"}
+{"query": "50 पाउंड बदल दो", "gold": {"ask": "50 पाउंड को किस करेंसी में बदलना है?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Currency convert karni hai", "gold": {"ask": "Kitni amount, kis currency se aur kis currency mein convert karni hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Can you convert some money for me?", "gold": {"ask": "Sure. How much, from which currency, and into which currency?"}, "lang": "english", "kind": "missing"}
+{"query": "Dollar kya hota hai?", "gold": {"answer": "Dollar Amerika ki mukhya currency hai, jise USD bhi kehte hain, aur duniya bhar mein vyapar mein bahut istemal hoti hai."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "फॉरेक्स क्या होता है?", "gold": {"answer": "फॉरेक्स यानी विदेशी मुद्रा बाजार, जहाँ अलग-अलग देशों की करेंसी खरीदी और बेची जाती हैं।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "What is a dirham?", "gold": {"answer": "The dirham, code AED, is the official currency of the United Arab Emirates."}, "lang": "english", "kind": "no_tool"}
+{"query": "रिपिया रो भाव क्यूं घटै बधै है?", "gold": {"answer": "रिपिया रो भाव मांग और सप्लाई, महंगाई, ब्याज दर अर दूजै देशां सूं व्यापार जैड़ी बातां सूं घटै बधै है।"}, "lang": "rajasthani", "kind": "no_tool"}
+{"query": "Exchange rate kaun tay karta hai?", "gold": {"answer": "Zyadatar currencies ka exchange rate forex market mein maang aur supply se tay hota hai, aur kuch deshon mein central bank bhi isme dakhal deta hai."}, "lang": "hinglish", "kind": "no_tool"}
