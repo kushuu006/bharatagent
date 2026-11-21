@@ -1,0 +1,50 @@
+{"query": "Shaam 5 baje bijli ka bill bharna yaad dila dena", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "bijli ka bill bharna", "time": "17:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Raat 9 baje paani peene ka reminder set kar", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "paani peena", "time": "21:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Subah 6:30 pe gas booking ka alarm laga de", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "gas booking", "time": "06:30"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Reminder lagao 15:45 pe bachche ko school se lena", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "bachche ko school se lena", "time": "15:45"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Dopahar 2 baje meting hai, yaad dilana", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "meeting hai", "time": "14:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Kal subah 8 baje exam hai, reminder lagao", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "exam hai", "time": "2026-11-22 08:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Parso shaam 6 baje birthday wish karna yaad dila dena", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "birthday wish karna", "time": "2026-11-23 18:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Is Friday raat 9 baje bijli ka bill bharne ka reminder set kar", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "bijli ka bill bharna", "time": "2026-11-27 21:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Agle Monday subah 7 baje gas booking karni hai, yaad dilana", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "gas booking karni hai", "time": "2026-11-23 07:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Aaj raat 10 baje dawai lene ka alarm laga de", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "dawai lena", "time": "2026-11-21 22:00"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "सुबह 7 बजे दवाई लेने का रिमाइंडर लगाओ", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "दवाई लेना", "time": "07:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "शाम 6:30 बजे बच्चे को स्कूल से लेना याद दिला देना", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "बच्चे को स्कूल से लेना", "time": "18:30"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "रात 9 बजे पानी पीने की याद दिलाओ", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "पानी पीना", "time": "21:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "दोपहर 2 बजे मीटिंग है, रिमाइंडर सेट कर दो", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "मीटिंग है", "time": "14:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "कल सुबह 9 बजे परीक्षा है, याद दिला देना", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "परीक्षा है", "time": "2026-11-22 09:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "परसों शाम 6 बजे बिजली का बिल भरना है, रिमाइंडर लगा दो", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "बिजली का बिल भरना", "time": "2026-11-23 18:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "5 दिसंबर को सुबह 8 बजे गैस बुकिंग का रिमाइंडर लगाओ", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "गैस बुकिंग", "time": "2026-12-05 08:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "इस शुक्रवार रात 8 बजे दोस्त का जन्मदिन याद दिलाना", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "दोस्त का जन्मदिन", "time": "2026-11-27 20:00"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Remind me at 7 am to take my medicine", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "take my medicine", "time": "07:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "Set a reminder for 14:00: team meeting", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "team meeting", "time": "14:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "Remind me at 9 pm to drink water", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "drink water", "time": "21:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "Please remind me at 5:30 pm to pick up the kids from school", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "pick up the kids from school", "time": "17:30"}}]}, "lang": "english", "kind": "single"}
+{"query": "Remind me tomorrow at 8 am about the exam", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "exam", "time": "2026-11-22 08:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "Set a reminder for 5 December at 6 pm to book the gas cylinder", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "book the gas cylinder", "time": "2026-12-05 18:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "Remind me this Friday at 9 pm to pay the electricity bill", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "pay the electricity bill", "time": "2026-11-27 21:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "Remind me the day after tomorrow at 2 pm to wish Riya happy birthday", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "wish Riya happy birthday", "time": "2026-11-23 14:00"}}]}, "lang": "english", "kind": "single"}
+{"query": "म्हने सुबह 7 बजे दवाई लेणी है, याद दिरा दीजो", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "दवाई लेणी है", "time": "07:00"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Mane raat 9 baje paani pivno hai, reminder laga do sa", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "paani pivno hai", "time": "21:00"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Kal savere 8 baje exam hai, yaad dirai dijo", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "exam hai", "time": "2026-11-22 08:00"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "म्हने परसू सिंझ्या 6 बजे टाबर नै स्कूल सूं लेणो है, रिमाइंडर लगा दो", "gold": {"calls": [{"tool": "set_reminder", "args": {"text": "टाबर नै स्कूल सूं लेणो", "time": "2026-11-23 18:00"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Bijli ka bill bharne ka reminder set kar", "gold": {"ask": "Kis samay par yaad dilana hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Remind me to call Mom", "gold": {"ask": "What time should I remind you?"}, "lang": "english", "kind": "missing"}
+{"query": "मुझे बच्चे को स्कूल से लेने की याद दिला देना", "gold": {"ask": "किस समय याद दिलाना है?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Gas booking ka alarm laga de", "gold": {"ask": "Kis samay ka alarm lagana hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "म्हने परीक्षा री याद दिरा दीजो", "gold": {"ask": "किस बखत याद दिरावणो है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "Kal exam hai, yaad dila dena", "gold": {"ask": "Kal ke din kis samay yaad dilana hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Kal subah 7 baje ka reminder laga do", "gold": {"ask": "Kis cheez ka reminder lagana hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Set a reminder for 6 pm", "gold": {"ask": "What should I remind you about?"}, "lang": "english", "kind": "missing"}
+{"query": "शाम 5 बजे रिमाइंडर सेट कर दो", "gold": {"ask": "किस बात का रिमाइंडर लगाना है?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Raat 9 baje yaad dila dena", "gold": {"ask": "Kya yaad dilana hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Remind me tomorrow at 8 am", "gold": {"ask": "What would you like to be reminded about?"}, "lang": "english", "kind": "missing"}
+{"query": "म्हने सिंझ्या 6 बजे याद दिरा दीजो", "gold": {"ask": "के याद दिरावणो है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "Ek reminder set kar do", "gold": {"ask": "Kis cheez ka aur kis samay ka reminder lagana hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Set a reminder for me", "gold": {"ask": "What should I remind you about, and at what time?"}, "lang": "english", "kind": "missing"}
+{"query": "मुझे कुछ याद दिलाना है", "gold": {"ask": "आपको क्या याद दिलाना है और किस समय?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Alarm aur reminder mein kya fark hota hai?", "gold": {"answer": "Alarm sirf tay samay par bajta hai, jabki reminder mein aap ek message ya kaam bhi likh sakte hain jo us samay par dikhta hai."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "What is a recurring reminder?", "gold": {"answer": "A recurring reminder is one that repeats automatically, such as every day, every week or every month, so you do not have to set it again."}, "lang": "english", "kind": "no_tool"}
+{"query": "रिमाइंडर लगाने के क्या फायदे हैं?", "gold": {"answer": "रिमाइंडर से आप जरूरी काम, जैसे दवाई, बिल या मीटिंग, समय पर याद रख पाते हैं और कुछ भूलने की संभावना कम हो जाती है।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "Subah jaldi uthne ke liye alarm kaise use karein, koi tip do", "gold": {"answer": "Alarm ko bed se thodi door rakhein, roz ek hi samay par sone aur uthne ki aadat banayein, aur snooze kam se kam use karein."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "रिमाइंडर कांई हुवै?", "gold": {"answer": "रिमाइंडर एक याद दिरावण वालो नोटिफिकेशन है जो थारै बताए बखत माथै आवै।"}, "lang": "rajasthani", "kind": "no_tool"}
