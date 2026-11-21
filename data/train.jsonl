@@ -164,3 +164,48 @@
 {"query": "Mudra Loan ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Mudra Loan"}}]}, "lang": "hinglish", "kind": "single"}
 {"query": "2026-12-10 ko Jaipur se Pune ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Pune", "date": "2026-12-10"}}]}, "lang": "hinglish", "kind": "single"}
 {"query": "2026-12-05 ko Jaipur se Chennai ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jaipur", "to_city": "Chennai", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "जोधपुर में आज कितनी गर्मी है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jodhpur"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "bhai Udaipur me aaj baarish hogi kya?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Udaipur"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Is it gonna rain in Pune today?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Pune"}}]}, "lang": "english", "kind": "single"}
+{"query": "म्हारे बीकानेर में आज मौसम कियां है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Bikaner"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Ajmer ka mosam btao yaar", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Ajmer"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "लखनऊ का तापमान कितना है अभी?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Lucknow"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "weather in Bangalore rn?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Bangalore"}}]}, "lang": "english", "kind": "single"}
+{"query": "Jaisalmer me aaj kitni garmi h bhai", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jaisalmer"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "कोलकाता में बारिश हो रही है क्या?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Kolkata"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Hyderabad temp batao jaldi", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Hyderabad"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "आज जोधपुर में लू चालसी कांई?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Jodhpur"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "How hot is it in Ahmedabad right now?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Ahmedabad"}}]}, "lang": "english", "kind": "single"}
+{"query": "Indore ka wether kaisa hai aaj", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Indore"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "चंडीगढ़ में ठंड कितनी है आज?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Chandigarh"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Surat me mausam ekdum jhakaas hai ya nahi?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Surat"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Check the weather in Nagpur pls", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Nagpur"}}]}, "lang": "english", "kind": "single"}
+{"query": "सा, भीलवाड़ा में आज तावड़ो कित्तो है?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Bhilwara"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Patna me kal barish hogi kya, btao na", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Patna"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "वाराणसी का मौसम बताओ", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Varanasi"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "wats the temprature in Mumbai today", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Mumbai"}}]}, "lang": "english", "kind": "single"}
+{"query": "Sikar me thand kitni h aaj bhai", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Sikar"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Alwar में आज धुंध है क्या?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Alwar"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Pali ra mausam batao sa", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Pali"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Need weather update for Kochi", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Kochi"}}]}, "lang": "english", "kind": "single"}
+{"query": "Nashik ka mausam kya scene hai aaj?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Nashik"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "रांची में आज कोहरा है क्या?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Ranchi"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Delhi aur Mumbai dono ka mausam batao", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Delhi"}}, {"tool": "get_weather", "args": {"city": "Mumbai"}}]}, "lang": "hinglish", "kind": "multi"}
+{"query": "Compare weather in Goa and Shimla", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Goa"}}, {"tool": "get_weather", "args": {"city": "Shimla"}}]}, "lang": "english", "kind": "multi"}
+{"query": "Barmer me aaj aandhi aavsi kai?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Barmer"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Amritsar ka weather kesa h aaj?", "gold": {"calls": [{"tool": "get_weather", "args": {"city": "Amritsar"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "आज मौसम कैसा है?", "gold": {"ask": "आप किस शहर का मौसम जानना चाहते हैं?"}, "lang": "hindi", "kind": "clarify"}
+{"query": "weather batao", "gold": {"ask": "Kaunse city ka weather chahiye?"}, "lang": "hinglish", "kind": "clarify"}
+{"query": "What's the weather like today?", "gold": {"ask": "Which city would you like the weather for?"}, "lang": "english", "kind": "clarify"}
+{"query": "aaj barish hogi kya?", "gold": {"ask": "Aap kis shehar ke baare me pooch rahe ho?"}, "lang": "hinglish", "kind": "clarify"}
+{"query": "म्हारे अठे आज मौसम कियां रेसी?", "gold": {"ask": "आप कुण सा शहर रो मौसम जाणणो चावो हो?"}, "lang": "rajasthani", "kind": "clarify"}
+{"query": "Will it be hot tomorrow?", "gold": {"ask": "Which city are you asking about?"}, "lang": "english", "kind": "clarify"}
+{"query": "mere sheher ka temp kitna h", "gold": {"ask": "Aapka sheher kaunsa hai? Naam bata do."}, "lang": "hinglish", "kind": "clarify"}
+{"query": "कल बारिश होगी क्या?", "gold": {"ask": "आप किस शहर में बारिश की जानकारी चाहते हैं?"}, "lang": "hindi", "kind": "clarify"}
+{"query": "is the weather good for a trip this weekend?", "gold": {"ask": "Which destination are you planning to visit?"}, "lang": "english", "kind": "clarify"}
+{"query": "garmi kitni hai aaj bhai", "gold": {"ask": "Kis city ki garmi ke baare me puch rahe ho?"}, "lang": "hinglish", "kind": "clarify"}
+{"query": "मौसम विज्ञान क्या होता है?", "gold": {"answer": "मौसम विज्ञान (Meteorology) वायुमंडल का अध्ययन है, जिसमें तापमान, वायुदाब, आर्द्रता, हवा और वर्षा जैसी चीज़ों को समझकर मौसम का पूर्वानुमान लगाया जाता है।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "Why does it rain?", "gold": {"answer": "Rain forms when water vapour in the air cools and condenses into droplets on tiny particles, forming clouds. When the droplets grow heavy enough, they fall as rain."}, "lang": "english", "kind": "no_tool"}
+{"query": "monsoon kya hota hai bhai?", "gold": {"answer": "Monsoon ek mausmi hawa ka system hai jo garmiyon me samundar se nami lekar aati hai aur India me June se September tak zyada barish karwati hai."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "Celsius ko Fahrenheit me kaise badalte hain?", "gold": {"answer": "Formula hai: F = (C × 9/5) + 32. Jaise 30°C ka matlab 30 × 1.8 + 32 = 86°F."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "बादळ कियां बणे है?", "gold": {"answer": "समंदर अर नदियाँ रो पाणी सूरज री गरमी सूं भाप बण'र ऊपर जावै, ठंडी हवा में जमकर छोटी-छोटी बूंदां बण जावै अर वे ही बादळ कहलावै।"}, "lang": "rajasthani", "kind": "no_tool"}
