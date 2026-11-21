@@ -1,0 +1,50 @@
+{"query": "7 plus 5 kitna hua", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "7+5"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "18 guna 47 kitna hota hai?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "1847"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "250 ka 18 percent bata do plz", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "25018/100"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "1200 mein se 47 ghata do", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "1200-47"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "15000 ko 3 se bhaag do", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "15000/3"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "9 ka square kitna hoga?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "92"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "(12+8)*3 calculate kr do", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "(12+8)3"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2.5 into 4 kitna hua", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "2.54"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "15+27-9 kya aayega?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "15+27-9"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "6 ka cube bta do", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "63"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "850 jod 1200 jod do yaar", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "850+1200"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "96 bhaag 8 kitna hua bro", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "96/8"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "18 और 47 का जोड़ बताओ", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "18+47"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "15000 में से 250 घटा दो", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "15000-250"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "3 गुणा 1200 कितना होगा?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "31200"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "1200 को 18 से भाग दो", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "1200/18"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "5 का वर्ग कितना होता है?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "5**2"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "47 का 30 प्रतिशत निकालो", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "4730/100"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "(20-8)6 का जवाब बताओ", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "(20-8)6"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "7.5 में 2.5 जोड़ दो", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "7.5+2.5"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "4 का घन क्या होगा?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "4**3"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Add 3 and 18", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "3+18"}}]}, "lang": "english", "kind": "single"}
+{"query": "What is 47 times 9?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "479"}}]}, "lang": "english", "kind": "single"}
+{"query": "Subtract 250 from 1200", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "1200-250"}}]}, "lang": "english", "kind": "single"}
+{"query": "Divide 15000 by 25 plz", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "15000/25"}}]}, "lang": "english", "kind": "single"}
+{"query": "Square of 13", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "13**2"}}]}, "lang": "english", "kind": "single"}
+{"query": "whats 15 percent of 1200?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "120015/100"}}]}, "lang": "english", "kind": "single"}
+{"query": "calculate (45+15)/4", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "(45+15)/4"}}]}, "lang": "english", "kind": "single"}
+{"query": "8.5 minus 3.2 please", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "8.5-3.2"}}]}, "lang": "english", "kind": "single"}
+{"query": "Cube of 3", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "3**3"}}]}, "lang": "english", "kind": "single"}
+{"query": "Multiply 18 by 6 then add 47", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "186+47"}}]}, "lang": "english", "kind": "single"}
+{"query": "29 अर 31 जोड़ दो सा", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "29+31"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "500 में सूं 47 घटाओ नी", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "500-47"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "15000 रो 10 प्रतिशत कित्तो होवै?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "1500010/100"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "9 गुणा 11 कित्ता होवै सा?", "gold": {"calls": [{"tool": "calculator", "args": {"expression": "9*11"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "calculate karo", "gold": {"ask": "Aap kya calculate karna chahte hain? Kripya numbers aur operation bataiye."}, "lang": "hinglish", "kind": "missing"}
+{"query": "kitna hua?", "gold": {"ask": "Kaunsa calculation karna hai? Numbers aur operation bataiye."}, "lang": "hinglish", "kind": "missing"}
+{"query": "5 ko multiply karo", "gold": {"ask": "5 ko kis number se multiply karna hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "bill split karo yaar", "gold": {"ask": "Bill ki total rakam kitni hai aur kitne logon mein split karna hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "plz jod do", "gold": {"ask": "Kin numbers ko jodna hai? Kripya numbers bataiye."}, "lang": "hinglish", "kind": "missing"}
+{"query": "भाग कर दो", "gold": {"ask": "आप किस संख्या को किस संख्या से भाग देना चाहते हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "इसका प्रतिशत निकालो", "gold": {"ask": "आप किस संख्या का कितने प्रतिशत निकालना चाहते हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Calculate this for me", "gold": {"ask": "What would you like me to calculate? Please give me the numbers and the operation."}, "lang": "english", "kind": "missing"}
+{"query": "Add these numbers", "gold": {"ask": "Which numbers would you like me to add?"}, "lang": "english", "kind": "missing"}
+{"query": "हिसाब लगाओ नी सा", "gold": {"ask": "कुण सा नंबर अर कुण सो हिसाब लगाणो है, बताओ सा?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "Pi ki value kya hai?", "gold": {"answer": "Pi ek constant hai jo kisi circle ki paridhi aur vyas ke anupaat ko batata hai. Iski value lagbhag 3.14159 hoti hai."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "Prime number kya hota hai?", "gold": {"answer": "Prime number woh sankhya hai jo sirf 1 aur khud se divide hoti hai. Jaise 2, 3, 5, 7 aur 11."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "वर्गमूल क्या होता है?", "gold": {"answer": "वर्गमूल वह संख्या होती है जिसे खुद से गुणा करने पर दी हुई संख्या मिलती है। जैसे 9 का वर्गमूल 3 है।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "What is a fraction?", "gold": {"answer": "A fraction represents a part of a whole. It is written as one number over another, like 1/2, where the top is the numerator and the bottom is the denominator."}, "lang": "english", "kind": "no_tool"}
+{"query": "औसत कांई होवै है?", "gold": {"answer": "औसत वा संख्या है जो सगळी संख्यावां नै जोड़ कर उणां री गिणती सूं भाग देणै पर मिलै। इणसूं बराबर बंटवारै रो अंदाज़ो लागै।"}, "lang": "rajasthani", "kind": "no_tool"}
