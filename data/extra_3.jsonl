@@ -1,0 +1,50 @@
+{"query": "pm kissan ke baare mein batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Kisan"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Sukanya Samridhi mein kya milta hai", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Sukanya Samriddhi Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "pm awas yojana ke liye apply kaise karein", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Awas Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "jan dhan account ki eligibility batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Jan Dhan Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "Beti Bachao Beti Padhao ki jaankari do", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Beti Bachao Beti Padhao"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "fasal bima yojana kya hai", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Fasal Bima Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "stand up india ki eligibility batao", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Stand-Up India"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "PM SVANidhi mein kya milta hai", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM SVANidhi"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "jeevan jyoti bima yojana ke liye apply kaise karein", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Jeevan Jyoti Bima Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "pm suraksha bima ki jaankari do", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Suraksha Bima Yojana"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "सुकन्या समृद्धि योजना की पात्रता बताओ", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Sukanya Samriddhi Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "किसान क्रेडिट कार्ड कैसे बनवाएं", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Kisan Credit Card"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "विश्वकर्मा योजना में क्या मिलता है", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Vishwakarma"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "मातृ वंदना योजना की जानकारी दो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Matru Vandana Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "प्रधानमंत्री आवास योजना के लिए आवेदन कैसे करें", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Awas Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "उज्ज्वला योजना क्या है", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ujjwala Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "जन धन खाता योजना में क्या मिलता है", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Jan Dhan Yojana"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "बेटी बचाओ बेटी पढ़ाओ क्या है", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Beti Bachao Beti Padhao"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "What is PM Fasal Bima Yojana?", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Fasal Bima Yojana"}}]}, "lang": "english", "kind": "single"}
+{"query": "Tell me about Stand-Up India eligibility", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Stand-Up India"}}]}, "lang": "english", "kind": "single"}
+{"query": "How do I apply for PM SVANidhi?", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM SVANidhi"}}]}, "lang": "english", "kind": "single"}
+{"query": "What benefits does the Kisan Credit Card give?", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Kisan Credit Card"}}]}, "lang": "english", "kind": "single"}
+{"query": "Give me details about PM Vishwakarma scheme", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Vishwakarma"}}]}, "lang": "english", "kind": "single"}
+{"query": "mudra loan scheme eligibility please", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Mudra Loan"}}]}, "lang": "english", "kind": "single"}
+{"query": "Tell me about PM Jeevan Jyoti Bima Yojana", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Jeevan Jyoti Bima Yojana"}}]}, "lang": "english", "kind": "single"}
+{"query": "What does PM Suraksha Bima Yojana cover?", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Suraksha Bima Yojana"}}]}, "lang": "english", "kind": "single"}
+{"query": "म्हनै अटल पेंशन योजना रै बारै में बताओ", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Atal Pension Yojana"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "आयुष्मान भारत में कांई मिलै सा", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Ayushman Bharat"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "मातृ वंदना योजना री जानकारी द्यो", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "PM Matru Vandana Yojana"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "सुकन्या समृद्धि योजना में खातो कियां खुलै सा", "gold": {"calls": [{"tool": "scheme_lookup", "args": {"scheme_name": "Sukanya Samriddhi Yojana"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "koi sarkari yojana batao", "gold": {"ask": "Aap kaunsi sarkari yojana ke baare mein jaanna chahte hain, ya kis ke liye yojana chahiye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "kisan ke liye scheme kaunsi hai", "gold": {"ask": "Kisan ke liye kai yojanaayein hain. Aap kis yojana ke baare mein jaanna chahte hain, ya aapko kis kaam ke liye chahiye (fasal, loan, bima)?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "wo bima wali yojana ke baare mein batao", "gold": {"ask": "Aap kaunsi bima yojana ke baare mein poochh rahe hain? Please uska naam batao."}, "lang": "hinglish", "kind": "missing"}
+{"query": "ladki ke liye koi yojana hai kya", "gold": {"ask": "Aap ladki ke liye kis tarah ki yojana chahte hain (padhai, bachat, ya kuch aur), ya kisi yojana ka naam batao?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "yojana ki eligibility batao", "gold": {"ask": "Aap kaunsi yojana ki eligibility jaanna chahte hain?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "मुझे किसी सरकारी योजना की जानकारी चाहिए", "gold": {"ask": "आप किस योजना के बारे में जानना चाहते हैं, या किसके लिए योजना चाहिए?"}, "lang": "hindi", "kind": "missing"}
+{"query": "वो लोन वाली योजना बताओ", "gold": {"ask": "आप किस लोन योजना के बारे में पूछ रहे हैं? कृपया योजना का नाम बताइए।"}, "lang": "hindi", "kind": "missing"}
+{"query": "बुज़ुर्गों के लिए कोई स्कीम है क्या", "gold": {"ask": "आप बुज़ुर्गों के लिए किस तरह की योजना चाहते हैं, या किसी योजना का नाम बताइए?"}, "lang": "hindi", "kind": "missing"}
+{"query": "इस योजना में आवेदन कैसे करें", "gold": {"ask": "आप किस योजना में आवेदन करना चाहते हैं?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Tell me about a government scheme", "gold": {"ask": "Which scheme would you like to know about, or who is it for?"}, "lang": "english", "kind": "missing"}
+{"query": "Is there any scheme for small business owners?", "gold": {"ask": "Could you tell me which scheme you mean, or what kind of support you need (loan, street vendor help, etc.)?"}, "lang": "english", "kind": "missing"}
+{"query": "How do I apply for that yojana?", "gold": {"ask": "Which yojana do you want to apply for?"}, "lang": "english", "kind": "missing"}
+{"query": "कोई सरकारी योजना बताओ सा", "gold": {"ask": "थे कण-सी योजना रै बारै में जाणणो चावो हो, या किण वास्तै योजना चाइजे?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "किसान वास्तै कोई स्कीम है कांई", "gold": {"ask": "किसान वास्तै कई योजनावां है। थे कण-सी योजना रो नांव जाणणो चावो हो, या कै काम वास्तै चाइजे?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "छोरी वास्तै कोई योजना है कांई", "gold": {"ask": "छोरी वास्तै कण-सी तरह री योजना चाइजे (पढ़ाई, बचत), या किणी योजना रो नांव बताओ?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "Yojana kya hoti hai?", "gold": {"answer": "Yojana sarkar ki wo scheme hoti hai jisme logon ko madad, subsidy, loan ya suvidha di jaati hai taaki unka jeevan behtar ho sake."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "सब्सिडी का मतलब क्या होता है?", "gold": {"answer": "सब्सिडी वह आर्थिक मदद है जो सरकार किसी चीज़ की कीमत का कुछ हिस्सा खुद देकर उसे सस्ता कर देती है।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "What is a government subsidy?", "gold": {"answer": "A subsidy is financial support from the government that lowers the cost of a product or service for people or businesses."}, "lang": "english", "kind": "no_tool"}
+{"query": "DBT ka matlab kya hota hai?", "gold": {"answer": "DBT ka matlab Direct Benefit Transfer hai, jisme sarkari yojana ka paisa seedha labharthi ke bank account mein bheja jaata hai."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "सरकारी योजना रो फायदो कियां मिलै सा?", "gold": {"answer": "सरकारी योजना रो फायदो लेवण वास्तै पैला पात्रता देखणी पड़ै, फेर जरूरी कागज लेय'र ऑनलाइन या सरकारी दफ्तर में आवेदन करणो पड़ै।"}, "lang": "rajasthani", "kind": "no_tool"}
