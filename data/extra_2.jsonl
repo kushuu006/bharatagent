@@ -1,0 +1,50 @@
+{"query": "Kal Jodhpur se Delhi ki trein batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jodhpur", "to_city": "Delhi", "date": "2026-11-22"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "parso Bikaner se Ajmer ki gaadi kaun si h", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Bikaner", "to_city": "Ajmer", "date": "2026-11-23"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "5 December ko Lucknow se Patna ka ticket dekho", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Lucknow", "to_city": "Patna", "date": "2026-12-05"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "is Friday Guwahati se Kolkata ki train dikhao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Guwahati", "to_city": "Kolkata", "date": "2026-11-27"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "agle Monday Nagpur se Pune ki train h kya", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Nagpur", "to_city": "Pune", "date": "2026-11-23"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "aaj Surat se Mumbai ki gaadi batao yaar", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Surat", "to_city": "Mumbai", "date": "2026-11-21"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "2026-12-25 ko Amritsar se Delhi ki train chahiye", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Amritsar", "to_city": "Delhi", "date": "2026-12-25"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "3 din baad Ranchi se Kolkata ki trein dekho", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Ranchi", "to_city": "Kolkata", "date": "2026-11-24"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "1 January ko Indore se Bhopal ki train batao", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Indore", "to_city": "Bhopal", "date": "2027-01-01"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "agle Sunday Varanasi se Gorakhpur ki gaadi dekho", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Varanasi", "to_city": "Gorakhpur", "date": "2026-11-29"}}]}, "lang": "hinglish", "kind": "single"}
+{"query": "कल जोधपुर से दिल्ली की ट्रेन बताओ", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jodhpur", "to_city": "Delhi", "date": "2026-11-22"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "परसों बीकानेर से अजमेर की गाड़ी देखो", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Bikaner", "to_city": "Ajmer", "date": "2026-11-23"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "25 दिसंबर को लखनऊ से पटना की ट्रेन चाहिए", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Lucknow", "to_city": "Patna", "date": "2026-12-25"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "इस शुक्रवार गुवाहाटी से कोलकाता की ट्रेन बताओ", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Guwahati", "to_city": "Kolkata", "date": "2026-11-27"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "अगले सोमवार नागपुर से पुणे की ट्रेन है क्या", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Nagpur", "to_city": "Pune", "date": "2026-11-23"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "आज सूरत से मुंबई की ट्रेन दिखाओ", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Surat", "to_city": "Mumbai", "date": "2026-11-21"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "15 जनवरी को अमृतसर से जम्मू की ट्रेन बताओ", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Amritsar", "to_city": "Jammu", "date": "2027-01-15"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "अगले रविवार रांची से पटना की गाड़ी देखो", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Ranchi", "to_city": "Patna", "date": "2026-11-29"}}]}, "lang": "hindi", "kind": "single"}
+{"query": "Trains from Chennai to Bengaluru tomorrow", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Chennai", "to_city": "Bengaluru", "date": "2026-11-22"}}]}, "lang": "english", "kind": "single"}
+{"query": "Show me trains from Hyderabad to Vijayawada on 5 December", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Hyderabad", "to_city": "Vijayawada", "date": "2026-12-05"}}]}, "lang": "english", "kind": "single"}
+{"query": "Any train from Bhubaneswar to Kolkata today?", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Bhubaneswar", "to_city": "Kolkata", "date": "2026-11-21"}}]}, "lang": "english", "kind": "single"}
+{"query": "Check trains from Chandigarh to Delhi next Monday", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Chandigarh", "to_city": "Delhi", "date": "2026-11-23"}}]}, "lang": "english", "kind": "single"}
+{"query": "Trains from Ahmedabad to Jaipur on 2026-12-25", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Ahmedabad", "to_city": "Jaipur", "date": "2026-12-25"}}]}, "lang": "english", "kind": "single"}
+{"query": "I need a train from Pune to Goa this Friday", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Pune", "to_city": "Goa", "date": "2026-11-27"}}]}, "lang": "english", "kind": "single"}
+{"query": "trains frm Dehradun to Haridwar day after tomorrow", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Dehradun", "to_city": "Haridwar", "date": "2026-11-23"}}]}, "lang": "english", "kind": "single"}
+{"query": "Train from Thiruvananthapuram to Kochi on 1 January", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Thiruvananthapuram", "to_city": "Kochi", "date": "2027-01-01"}}]}, "lang": "english", "kind": "single"}
+{"query": "काल जोधपुर सूं जैसलमेर री गाड़ी बताओ सा", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Jodhpur", "to_city": "Jaisalmer", "date": "2026-11-22"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "परसूं बीकानेर सूं जयपुर री रेल देखो", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Bikaner", "to_city": "Jaipur", "date": "2026-11-23"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "5 दिसंबर नै उदयपुर सूं अजमेर री गाड़ी बताओ", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Udaipur", "to_city": "Ajmer", "date": "2026-12-05"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "अगले सोमवार नै पाली सूं आबू रोड री रेल है कांई", "gold": {"calls": [{"tool": "check_train", "args": {"from_city": "Pali", "to_city": "Abu Road", "date": "2026-11-23"}}]}, "lang": "rajasthani", "kind": "single"}
+{"query": "Bikaner se Lucknow ki trein dikhao", "gold": {"ask": "Kis tarikh ke liye train dekhni hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Trains from Mumbai to Pune", "gold": {"ask": "Which date would you like to travel?"}, "lang": "english", "kind": "missing"}
+{"query": "अजमेर से पटना की ट्रेन बताओ", "gold": {"ask": "किस तारीख के लिए ट्रेन देखनी है?"}, "lang": "hindi", "kind": "missing"}
+{"query": "Nagpur se Surat ki gaadi h kya", "gold": {"ask": "Kis din ki gaadi dekhni hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "जोधपुर सूं दिल्ली री रेल बताओ सा", "gold": {"ask": "कण-सी तारीख री रेल देखणी है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "Show trains from Amritsar to Delhi", "gold": {"ask": "What date should I check for?"}, "lang": "english", "kind": "missing"}
+{"query": "Kal Patna ki train batao", "gold": {"ask": "Kahan se Patna ki train dekhni hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "I need a train to Guwahati on 5 December", "gold": {"ask": "Which city will you be travelling from?"}, "lang": "english", "kind": "missing"}
+{"query": "परसों रांची की ट्रेन बताओ", "gold": {"ask": "किस शहर से रांची की ट्रेन देखनी है?"}, "lang": "hindi", "kind": "missing"}
+{"query": "5 दिसंबर नै उदयपुर री रेल बताओ", "gold": {"ask": "कठा सूं उदयपुर री रेल देखणी है?"}, "lang": "rajasthani", "kind": "missing"}
+{"query": "Lucknow se kal ki trein dikhao", "gold": {"ask": "Lucknow se kahan ki train dekhni hai?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "Trains from Kota on 25 December", "gold": {"ask": "Which city do you want to travel to?"}, "lang": "english", "kind": "missing"}
+{"query": "जोधपुर से 1 जनवरी की ट्रेन बताओ", "gold": {"ask": "जोधपुर से किस शहर की ट्रेन देखनी है?"}, "lang": "hindi", "kind": "missing"}
+{"query": "trein dekhni hai", "gold": {"ask": "Kahan se kahan ki train dekhni hai, aur kis tarikh ke liye?"}, "lang": "hinglish", "kind": "missing"}
+{"query": "I want to check a train", "gold": {"ask": "Which cities are you travelling between, and on what date?"}, "lang": "english", "kind": "missing"}
+{"query": "Tatkal ticket kab khulta hai?", "gold": {"answer": "Tatkal booking journey se ek din pehle khulti hai: AC classes ke liye subah 10 baje aur sleeper ke liye subah 11 baje."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "वेटिंग लिस्ट का मतलब क्या होता है?", "gold": {"answer": "वेटिंग लिस्ट का मतलब है कि अभी आपकी सीट पक्की नहीं हुई है। अगर किसी का कन्फ़र्म टिकट कैंसिल होता है तो वेटिंग वाले टिकट कन्फ़र्म होते जाते हैं।"}, "lang": "hindi", "kind": "no_tool"}
+{"query": "What is a PNR number?", "gold": {"answer": "PNR is a 10-digit Passenger Name Record number printed on your ticket. You can use it to check your booking and seat status."}, "lang": "english", "kind": "no_tool"}
+{"query": "RAC ticket kya hota h?", "gold": {"answer": "RAC ka matlab hai Reservation Against Cancellation. Isme aapko sleeper berth share karke baithne ki seat milti hai, aur cancellation hone par poori berth mil sakti hai."}, "lang": "hinglish", "kind": "no_tool"}
+{"query": "तत्काल टिकट कांई होवै सा?", "gold": {"answer": "तत्काल टिकट यात्रा सूं एक दिन पैला खुलणिया झटपट बुकिंग वाली सुविधा है, जिण में थोड़ो ज्यादा किराओ लागै।"}, "lang": "rajasthani", "kind": "no_tool"}
